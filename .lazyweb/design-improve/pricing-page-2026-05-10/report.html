@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Design Improvement: AR Air Pricing Page</title>
+    <style>
+      :root {
+        --ink: #101723;
+        --muted: #5d6b7d;
+        --blue: #3497e5;
+        --blue-dark: #0f57a7;
+        --blue-soft: #eaf6ff;
+        --line: #d9e8f6;
+        --paper: #ffffff;
+        --bg: #f6fbff;
+        --shadow: 0 18px 54px rgba(31, 88, 145, 0.13);
+        --radius: 24px;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: linear-gradient(180deg, var(--bg), #ffffff 360px);
+        color: var(--ink);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        line-height: 1.6;
+      }
+
+      main {
+        max-width: 1040px;
+        margin: 0 auto;
+        padding: 56px 22px 84px;
+      }
+
+      h1,
+      h2,
+      h3 {
+        margin: 0;
+        color: var(--ink);
+        line-height: 1.04;
+        letter-spacing: 0;
+      }
+
+      h1 {
+        max-width: 840px;
+        font-size: clamp(2.6rem, 6vw, 5.4rem);
+      }
+
+      h2 {
+        margin-top: 54px;
+        font-size: clamp(1.9rem, 3vw, 3rem);
+      }
+
+      h3 {
+        margin-top: 34px;
+        font-size: clamp(1.45rem, 2.2vw, 2rem);
+      }
+
+      p {
+        margin: 16px 0 0;
+        color: var(--muted);
+        font-size: 1.02rem;
+      }
+
+      a {
+        color: var(--blue-dark);
+        font-weight: 800;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 3px;
+      }
+
+      .eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 18px;
+        color: var(--blue-dark);
+        font-size: 0.82rem;
+        font-weight: 950;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+      }
+
+      .eyebrow::before {
+        width: 10px;
+        height: 10px;
+        border-radius: 999px;
+        background: var(--blue);
+        content: "";
+      }
+
+      .lead {
+        max-width: 800px;
+        margin-top: 22px;
+        color: #33445b;
+        font-size: 1.25rem;
+      }
+
+      .callout {
+        margin-top: 34px;
+        border: 1px solid #b9daf5;
+        border-radius: var(--radius);
+        background: linear-gradient(135deg, #ffffff, var(--blue-soft));
+        padding: 26px;
+        box-shadow: var(--shadow);
+      }
+
+      .callout strong {
+        display: block;
+        color: var(--blue-dark);
+        font-size: 0.82rem;
+        font-weight: 950;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+      }
+
+      .card {
+        margin-top: 24px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: rgba(255, 255, 255, 0.88);
+        padding: clamp(20px, 4vw, 34px);
+        box-shadow: var(--shadow);
+      }
+
+      figure {
+        margin: 24px 0 0;
+      }
+
+      img {
+        display: block;
+        width: 100%;
+        max-height: 660px;
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        object-fit: contain;
+        background: #fff;
+        box-shadow: 0 14px 34px rgba(16, 23, 35, 0.08);
+      }
+
+      figcaption {
+        margin-top: 10px;
+        color: var(--muted);
+        font-size: 0.94rem;
+      }
+
+      pre {
+        overflow-x: auto;
+        margin: 18px 0 0;
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        background: #081120;
+        color: #d8edff;
+        padding: 18px;
+        font-size: 0.88rem;
+        line-height: 1.45;
+      }
+
+      ul {
+        padding-left: 22px;
+      }
+
+      li {
+        margin: 8px 0;
+        color: var(--muted);
+      }
+
+      table {
+        width: 100%;
+        margin-top: 22px;
+        border-collapse: collapse;
+        overflow: hidden;
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        background: #fff;
+      }
+
+      th,
+      td {
+        border-bottom: 1px solid var(--line);
+        padding: 14px 16px;
+        text-align: left;
+        vertical-align: top;
+      }
+
+      th {
+        background: var(--blue-soft);
+        color: var(--blue-dark);
+        font-size: 0.82rem;
+        font-weight: 950;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+      }
+
+      tr:last-child td {
+        border-bottom: 0;
+      }
+
+      .ref-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+        margin-top: 20px;
+      }
+
+      .ref-grid figure {
+        margin: 0;
+      }
+
+      .ref-grid img {
+        max-height: 320px;
+      }
+
+      .meta {
+        margin-top: 56px;
+        border-top: 1px solid var(--line);
+        padding-top: 24px;
+      }
+
+      @media (max-width: 720px) {
+        main {
+          padding: 36px 16px 62px;
+        }
+
+        .ref-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">Lazyweb Design Improve</p>
+      <h1>AR Air pricing should feel like a guided price finder, not a spreadsheet.</h1>
+      <p class="lead">The current page is honest and on-brand. The redesign opportunity is to help a stressed HVAC customer find a likely repair price fast, understand what can change the quote, and call or text without hunting.</p>
+
+      <section class="callout" aria-labelledby="tldr">
+        <strong id="tldr">TL;DR</strong>
+        <p>Keep every transparent price, but restructure the page around search, category chips, common repairs, a sticky quote panel, and a short pricing FAQ.</p>
+      </section>
+
+      <section aria-labelledby="current">
+        <h2 id="current">Current State</h2>
+        <figure>
+          <img src="references/current.png" alt="Current AR Air pricing page screenshot" />
+          <figcaption>The current page uses clean category cards and the right colors, but all the work is in one long list.</figcaption>
+        </figure>
+      </section>
+
+      <section aria-labelledby="ideas">
+        <h2 id="ideas">Improvement Ideas</h2>
+
+        <article class="card">
+          <h3>1. Add A Price Finder At The Top</h3>
+          <p>Start with a search input, category chips, and common repair cards. This answers the visitor’s first question before they scroll through nearly fifty rows.</p>
+          <figure>
+            <img src="references/lazyweb-yourmechanic-pricing.png" alt="YourMechanic pricing reference" />
+            <figcaption>YourMechanic uses search/input framing to move pricing curiosity into a guided quote flow. [Lazyweb]</figcaption>
+          </figure>
+          <figure>
+            <img src="references/lazyweb-rinse-transparent-service-prices.png" alt="Transparent service price cards reference" />
+            <figcaption>Rinse presents transparent service prices as quick, trust-building cards. [Lazyweb]</figcaption>
+          </figure>
+          <pre>┌────────────────────────────────────────────────┐
+│ Search repair, symptom, or part... [Search]   │
+│ [Cooling] [Heating] [Electrical] [Motors]     │
+│ Popular repairs: Capacitor $275, Fan $650     │
+└────────────────────────────────────────────────┘</pre>
+        </article>
+
+        <article class="card">
+          <h3>2. Convert The List Into A Service Menu</h3>
+          <p>Keep the existing six categories, but add a sticky category rail on desktop and scrollable chips on mobile. It should feel like a repair menu, not a document.</p>
+          <figure>
+            <img src="references/lazyweb-doordash-menu-categories.png" alt="Menu category navigation reference" />
+            <figcaption>DoorDash shows how long categorized item lists stay usable when category navigation remains close. [Lazyweb]</figcaption>
+          </figure>
+          <pre>┌────────────┬───────────────────────────────────┐
+│ Categories │ Cooling + Refrigerant            │
+│ Cooling    │ Compressor Replacement    Book   │
+│ Heating    │ TXV Replacement           $1,200 │
+└────────────┴───────────────────────────────────┘</pre>
+        </article>
+
+        <article class="card">
+          <h3>3. Add A Sticky Quote Panel</h3>
+          <p>Put a desktop side panel beside the list: "Not sure what failed?", same-day response, phone/text/quote buttons, and a short note about final diagnosis.</p>
+          <figure>
+            <img src="references/lazyweb-taskrabbit-service-list-sidebar.png" alt="TaskRabbit service list with booking sidebar reference" />
+            <figcaption>TaskRabbit keeps booking help visible while users browse services. [Lazyweb]</figcaption>
+          </figure>
+          <pre>┌─────────────────────────────┬───────────────────┐
+│ Repair price list           │ Not sure?          │
+│ Electrical, motors, cooling │ Call or text AR Air│
+│                             │ [Call] [Text]      │
+└─────────────────────────────┴───────────────────┘</pre>
+        </article>
+
+        <article class="card">
+          <h3>4. Add "How Pricing Works" And FAQ</h3>
+          <p>After the list, add short answers about diagnostic fees, emergency service, why some jobs need an appointment, and what affects the final price.</p>
+          <figure>
+            <img src="references/lazyweb-koyfin-pricing-table-faq.png" alt="Pricing table and FAQ reference" />
+            <figcaption>Koyfin pairs pricing with FAQ content to resolve objections near the decision point. [Lazyweb]</figcaption>
+          </figure>
+          <pre>┌────────────────────────────────────────────────┐
+│ How pricing works                              │
+│ ✓ Written estimate before work                 │
+│ ✓ Final price depends on diagnosis and access  │
+│ FAQ: Is emergency service extra? Why book?     │
+└────────────────────────────────────────────────┘</pre>
+        </article>
+
+        <article class="card">
+          <h3>5. Use One Small Equipment Visual</h3>
+          <p>Add a subtle condenser or furnace visual near the finder, but keep the price list mostly white and utility-focused. The equipment should support the page, not decorate every row.</p>
+          <pre>┌─────────────────────────────┬───────────────────┐
+│ Clear repair pricing         │ small HVAC render │
+│ Search + chips               │ 24/7 service      │
+└─────────────────────────────┴───────────────────┘</pre>
+        </article>
+      </section>
+
+      <section aria-labelledby="working">
+        <h2 id="working">What’s Working</h2>
+        <ul>
+          <li>The repair prices are transparent, which is the strongest trust signal on the page.</li>
+          <li>The AR Air blue/white/ink palette matches the current website.</li>
+          <li>The categories are meaningful and should be kept.</li>
+          <li>The phone, text, and quote actions are already present.</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="research">
+        <h2 id="research">Research Notes</h2>
+        <ul>
+          <li><a href="https://www.figma.com/resource-library/pricing-page-best-practices/">Figma</a> recommends transparent pricing, strong CTAs, mobile optimization, and FAQ content on pricing pages.</li>
+          <li><a href="https://baymard.com/research/ecommerce-product-lists%20">Baymard product-list research</a> supports filtering and sorting tools for long browsable lists.</li>
+          <li><a href="https://baymard.com/learn/ecommerce-filter-ui">Baymard filter guidance</a> supports category-specific filters, visible applied filters, and mobile-friendly chips.</li>
+          <li><a href="https://gmenertech.com/pricing/service-pricing.html">GM EnerTech</a> and <a href="https://www.uptonhomeservices.com/service/hvac-repair/pricing/">Upton Air</a> show HVAC pricing pages using transparent repair framing, diagnostic context, warranties, and trust copy.</li>
+          <li>Lazyweb visual compare failed on the current screenshot, so this report uses Lazyweb text search plus downloaded references.</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="refs">
+        <h2 id="refs">Reference Gallery</h2>
+        <div class="ref-grid">
+          <figure>
+            <img src="references/lazyweb-yourmechanic-pricing.png" alt="YourMechanic pricing page" />
+            <figcaption>YourMechanic pricing flow [Lazyweb]</figcaption>
+          </figure>
+          <figure>
+            <img src="references/lazyweb-taskrabbit-service-list-sidebar.png" alt="TaskRabbit service sidebar" />
+            <figcaption>TaskRabbit service sidebar [Lazyweb]</figcaption>
+          </figure>
+          <figure>
+            <img src="references/lazyweb-doordash-menu-categories.png" alt="DoorDash menu categories" />
+            <figcaption>DoorDash category menu [Lazyweb]</figcaption>
+          </figure>
+          <figure>
+            <img src="references/lazyweb-koyfin-pricing-table-faq.png" alt="Koyfin pricing and FAQ" />
+            <figcaption>Koyfin pricing FAQ [Lazyweb]</figcaption>
+          </figure>
+          <figure>
+            <img src="references/lazyweb-rinse-transparent-service-prices.png" alt="Transparent service prices" />
+            <figcaption>Rinse service pricing [Lazyweb]</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="meta" aria-label="Report metadata">
+        <p>Saved for AR Air Website in <code>.lazyweb/design-improve/pricing-page-2026-05-10/</code>.</p>
+      </section>
+    </main>
+  </body>
+</html>

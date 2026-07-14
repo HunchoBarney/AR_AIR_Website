@@ -1,0 +1,37 @@
+[
+  {
+    "companyName": "taskrabbit",
+    "pageUrl": "https://www.taskrabbit.com/locations/fairfield",
+    "screenshotName": "taskrabbit_90739f278cd0baf50158.png",
+    "visionDescription": "Location-based home services marketplace landing page showing “How it works” steps and a scrollable list of service categories (handyman, furniture assembly, movers, cleaning, mounting, plumbing, electrical, etc. ) with a primary “Book Now” call-to-action for each.",
+    "local": "references/context-01-taskrabbit.png"
+  },
+  {
+    "companyName": "particle",
+    "pageUrl": "https://www.particle.io/iot-solutions/hvac/",
+    "screenshotName": "particle_57f9e164ddbcf1763719.png",
+    "visionDescription": "Marketing landing page for an IoT platform focused on HVAC, featuring a hero headline about improving reliability, efficiency, and safety with a primary “Contact your HVAC experts” CTA plus top navigation (Platform, Supported devices, Solutions, Developers, Pricing) and a “Contact sales” button. The page highlights benefits and features in icon-based sections (prevent anomalies, reduce truck rolls, lower energy use, scalable/open/customizable/secure), includes an on-demand webinar promo, customer testimonial, “Why Particle” value props, and a bottom CTA to “Build more profitable HVAC systems today.",
+    "local": "references/context-02-particle.png"
+  },
+  {
+    "companyName": "lemonade",
+    "pageUrl": "https://www.lemonade.com/homeowners",
+    "screenshotName": "lemonade_60f2ff4dfadef9a43719.png",
+    "visionDescription": "Marketing landing page for a homeowners insurance service with a prominent “Get a quote” call-to-action, illustrated hero section, and social proof including star ratings and customer testimonials. The page highlights lender acceptance logos, explains coverage features and switching/closing benefits, includes an FAQ/education section, pricing/value messaging, partner/impact badges, and cross-sells other insurance products.",
+    "local": "references/context-03-lemonade.png"
+  },
+  {
+    "companyName": "leaping-ai",
+    "pageUrl": "https://leapingai.com/ldp/home-remodeling",
+    "screenshotName": "leaping-ai_5031648bae86c8b7fdfb.png",
+    "visionDescription": "Loglight landing page for home improvement businesses, promoting a service to capture missed calls and convert them into leads through appointment handling and customer time management, with a hero image of a tradesperson, benefit highlights, and prominent CTAs to speak with a specialist or understand how it works.",
+    "local": "references/context-04-leaping-ai.png"
+  },
+  {
+    "companyName": "thumbtack",
+    "pageUrl": "https://www.thumbtack.com/app",
+    "screenshotName": "thumbtack_903aa7701c2e63a815c5.png",
+    "visionDescription": "Thumbtack app landing page promoting services for professionals, featuring a central hero section with zip code search input, \"Try it\" call-to-action button, 5-star rating, mobile app screenshots, and three key feature highlights: smarter custom leads with guidance, organization tools, and easy find-and-book functionality for planning and getting jobs done.",
+    "local": "references/context-05-thumbtack.png"
+  }
+]

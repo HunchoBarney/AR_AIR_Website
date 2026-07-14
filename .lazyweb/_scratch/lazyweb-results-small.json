@@ -1,0 +1,517 @@
+{
+  "calls": {
+    "premium-service-landing": {
+      "ok": true,
+      "results": [
+        {
+          "screenshotId": null,
+          "siteId": 5300,
+          "screenshotName": "taskrabbit_78d09c1082d37ae1d215.png",
+          "companyName": "taskrabbit",
+          "category": "Lifestyle",
+          "path": "sites/taskrabbit/taskrabbit_78d09c1082d37ae1d215.png",
+          "imageUrl": "https://zlfyzdmohcskkucuunmk.supabase.co/storage/v1/object/sign/sites/taskrabbit/taskrabbit_78d09c1082d37ae1d215.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81NTU0MmU4OC1mNWRkLTQxMDEtOWZkYy0yODFiMzM3NmYyOTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzaXRlcy90YXNrcmFiYml0L3Rhc2tyYWJiaXRfNzhkMDljMTA4MmQzN2FlMWQyMTUucG5nIiwiaWF0IjoxNzc4MDQ1MzQ2LCJleHAiOjE3NzgwNDg5NDZ9.xD2P9qSmV547-eTxmxpRQbGcEHa_j8F1mPi0G7ijlVg",
+          "similarity": 0.583423,
+          "matchCount": 2,
+          "platform": "desktop",
+          "pageUrl": "https://www.taskrabbit.com/services/property-rentals",
+          "visionDescription": "Marketplace services landing page for property rental and home management, showing a list of task categories (deep cleaning, home repairs, mounting, light installation, lifting/shifting, delivery, carpentry, yard work) with images and “Book Now” CTA buttons. A right sidebar explains the booking flow (select a tasker, schedule, pay when complete) and includes customer testimonials, with top navigation for services and sign up/log in."
+        },
+        {
+          "screenshotId": null,
+          "siteId": 5205,
+          "screenshotName": "booksy_08e0984b86caed4d1ccd.png",
+          "companyName": "booksy",
+          "category": "Lifestyle",
+          "path": "sites/booksy/booksy_08e0984b86caed4d1ccd.png",
+          "imageUrl": "https://zlfyzdmohcskkucuunmk.supabase.co/storage/v1/object/sign/sites/booksy/booksy_08e0984b86caed4d1ccd.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81NTU0MmU4OC1mNWRkLTQxMDEtOWZkYy0yODFiMzM3NmYyOTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzaXRlcy9ib29rc3kvYm9va3N5XzA4ZTA5ODRiODZjYWVkNGQxY2NkLnBuZyIsImlhdCI6MTc3ODA0NTM0NiwiZXhwIjoxNzc4MDQ4OTQ2fQ.XBR1Gm0E3W8THGRwABAAPftsYwr0CYA4aWqu9mknpq8",
+          "similarity": 0.573405,
+          "matchCount": 2,
+          "platform": "desktop",
+          "pageUrl": "https://booksy.com/en-us/",
+          "visionDescription": "Home/landing page for a beauty and wellness appointment booking platform featuring a prominent search bar to find services or businesses with location and date inputs, category navigation, and a recommended professionals carousel with ratings. The page also promotes downloading the consumer app and business management tools, plus city links and educational content cards for discovery."
+        },
+        {
+          "screenshotId": null,
+          "siteId": 175423,
+          "screenshotName": "leaping-ai_5031648bae86c8b7fdfb.png",
+          "companyName": "leaping-ai",
+          "category": "B2B",
+          "path": "sites/leaping-ai/leaping-ai_5031648bae86c8b7fdfb.png",
+          "imageUrl": "https://zlfyzdmohcskkucuunmk.supabase.co/storage/v1/object/sign/sites/leaping-ai/leaping-ai_5031648bae86c8b7fdfb.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81NTU0MmU4OC1mNWRkLTQxMDEtOWZkYy0yODFiMzM3NmYyOTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzaXRlcy9sZWFwaW5nLWFpL2xlYXBpbmctYWlfNTAzMTY0OGJhZTg2YzhiN2ZkZmIucG5nIiwiaWF0IjoxNzc4MDQ1MzQ2LCJleHAiOjE3NzgwNDg5NDZ9.afYJ8C1BRd8JybgSeVwnKfA8Ol33kk-OT13njO4OhWQ",
+          "similarity": 0.483584,
+          "matchCount": 1,
+          "platform": "desktop",
+          "pageUrl": "https://leapingai.com/ldp/home-remodeling",
+          "visionDescription": "Loglight landing page for home improvement businesses, promoting a service to capture missed calls and convert them into leads through appointment handling and customer time management, with a hero image of a tradesperson, benefit highlights, and prominent CTAs to speak with a specialist or understand how it works."
+        },
+        {
+          "screenshotId": null,
+          "siteId": 18051,
+          "screenshotName": "robinhood-wallet_6e305da4554ffa1e23c6.png",
+          "companyName": "robinhood-wallet",
+          "category": "Finance",
+          "path": "sites/robinhood-wallet/robinhood-wallet_6e305da4554ffa1e23c6.png",
+          "imageUrl": "https://zlfyzdmohcskkucuunmk.supabase.co/storage/v1/object/sign/sites/robinhood-wallet/robinhood-wallet_6e305da4554ffa1e23c6.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81NTU0MmU4OC1mNWRkLTQxMDEtOWZkYy0yODFiMzM3NmYyOTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzaXRlcy9yb2Jpbmhvb2Qtd2FsbGV0L3JvYmluaG9vZC13YWxsZXRfNmUzMDVkYTQ1NTRmZmExZTIzYzYucG5nIiwiaWF0IjoxNzc4MDQ1MzQ2LCJleHAiOjE3NzgwNDg5NDZ9.ai-4Vs4s_yHar88hWKVBn0ktqTl0ihnHHThsyQTbick",
+          "similarity": 0.600456,
+          "matchCount": 1,
+          "platform": "desktop",
+          "pageUrl": "https://robinhood.com/us/en/concierge/",
+          "visionDescription": "Marketing landing page for a premium concierge service, featuring a hero message with “Learn more” CTA, benefit highlights (dedicated concierge, 24/7 support, exclusive perks), and a “Connect with our team” contact form to request a call. Includes an FAQ accordion section and top navigation with log in/sign up."
+        },
+        {
+          "screenshotId": null,
+          "siteId": 96864,
+          "screenshotName": "scheduleonce_eab7af6b520549c3e379.png",
+          "companyName": "scheduleonce",
+          "category": "Scheduling Software",
+          "path": "sites/scheduleonce/scheduleonce_eab7af6b520549c3e379.png",
+          "imageUrl": "https://zlfyzdmohcskkucuunmk.supabase.co/storage/v1/object/sign/sites/scheduleonce/scheduleonce_eab7af6b520549c3e379.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81NTU0MmU4OC1mNWRkLTQxMDEtOWZkYy0yODFiMzM3NmYyOTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzaXRlcy9zY2hlZHVsZW9uY2Uvc2NoZWR1bGVvbmNlX2VhYjdhZjZiNTIwNTQ5YzNlMzc5LnBuZyIsImlhdCI6MTc3ODA0NTM0NiwiZXhwIjoxNzc4MDQ4OTQ2fQ.KBMhUhIPAyinMAqnmlXjBvj6ZvwoA6LPR8Pj4O4yaP0",
+          "similarity": 0.448073,
+          "matchCount": 1,
+          "platform": "desktop",
+          "pageUrl": "https://www.oncehub.com/product/phone-booking",
+          "visionDescription": "OnceHub landing page promoting Phone Booking feature that turns missed calls into scheduled orders via a natural conversational path over traditional voicemail, featuring a demo phone interface with chat bubbles, a \"Call It Yourself\" button with demo phone number, \"Sign Up Free\" CTA, and embedded screenshots of live booking interactions in action."
+        },
+        {
+          "screenshotId": null,
+          "siteId": 128688,
+          "screenshotName": "paratus-health_64f6c54ad2420c88c57b.png",
+          "companyName": "paratus-health",
+          "category": "Healthcare IT",
+          "path": "sites/paratus-health/paratus-health_64f6c54ad2420c88c57b.png",
+          "imageUrl": "https://zlfyzdmohcskkucuunmk.supabase.co/storage/v1/object/sign/sites/paratus-health/paratus-health_64f6c54ad2420c88c57b.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81NTU0MmU4OC1mNWRkLTQxMDEtOWZkYy0yODFiMzM3NmYyOTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzaXRlcy9wYXJhdHVzLWhlYWx0aC9wYXJhdHVzLWhlYWx0aF82NGY2YzU0YWQyNDIwYzg4YzU3Yi5wbmciLCJpYXQiOjE3NzgwNDUzNDYsImV4cCI6MTc3ODA0ODk0Nn0.ND9uGIiVNDAbBfBezi8H756KVk34_cqV4NlVyi4SVs4",
+          "similarity": 0.437408,
+          "matchCount": 1,
+          "platform": "desktop",
+          "pageUrl": "https://www.paratushealth.com/",
+          "visionDescription": "Promotional hero screen for an AI phone lines service targeting healthcare and business scaling, featuring a professional woman on a stressed phone call with taglines \"Do more. Scale faster."
+        }
+      ]
+    },
+    "hvac-repair-landing": {
+      "ok": true,
+      "results": [
+        {
+          "screenshotId": null,
+          "siteId": 5303,
+          "screenshotName": "taskrabbit_f386b88e580a6f55735b.png",
+          "companyName": "taskrabbit",
+          "category": "Lifestyle",
+          "path": "sites/taskrabbit/taskrabbit_f386b88e580a6f55735b.png",
+          "imageUrl": "https://zlfyzdmohcskkucuunmk.supabase.co/storage/v1/object/sign/sites/taskrabbit/taskrabbit_f386b88e580a6f55735b.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81NTU0MmU4OC1mNWRkLTQxMDEtOWZkYy0yODFiMzM3NmYyOTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzaXRlcy90YXNrcmFiYml0L3Rhc2tyYWJiaXRfZjM4NmI4OGU1ODBhNmY1NTczNWIucG5nIiwiaWF0IjoxNzc4MDQ1MzQ5LCJleHAiOjE3NzgwNDg5NDl9.CG6DHlM5TQvZO838bMbWPcCge_pzZclwa0IhdSzLu0s",
+          "similarity": 0.486187,
+          "matchCount": 2,
+          "platform": "desktop",
+          "pageUrl": "https://www.taskrabbit.com/locations/hillsborough",
+          "visionDescription": "Local services marketplace landing page for a specific city, showing a “How it works” overview and a scrollable list of home service categories (house cleaning, carpet cleaning, plumbing, lawn mowing, painting, handyman, moving, TV mounting, pressure washing) each with a “Book Now” call to action. Includes a top “Get Started” button plus a FAQ accordion and links to explore categories and popular tasks."
+        },
+        {
+          "screenshotId": null,
+          "siteId": 9727,
+          "screenshotName": "particle_57f9e164ddbcf1763719.png",
+          "companyName": "particle",
+          "category": "News",
+          "path": "sites/particle/particle_57f9e164ddbcf1763719.png",
+          "imageUrl": "https://zlfyzdmohcskkucuunmk.supabase.co/storage/v1/object/sign/sites/particle/particle_57f9e164ddbcf1763719.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81NTU0MmU4OC1mNWRkLTQxMDEtOWZkYy0yODFiMzM3NmYyOTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzaXRlcy9wYXJ0aWNsZS9wYXJ0aWNsZV81N2Y5ZTE2NGRkYmNmMTc2MzcxOS5wbmciLCJpYXQiOjE3NzgwNDUzNDksImV4cCI6MTc3ODA0ODk0OX0.VlI70ipD-s2oW8AKC57t044OFH_r8i3RYz9eg1QYn_A",
+          "similarity": 0.59992,
+          "matchCount": 1,
+          "platform": "desktop",
+          "pageUrl": "https://www.particle.io/iot-solutions/hvac/",
+          "visionDescription": "Marketing landing page for an IoT platform focused on HVAC, featuring a hero headline about improving reliability, efficiency, and safety with a primary “Contact your HVAC experts” CTA plus top navigation (Platform, Supported devices, Solutions, Developers, Pricing) and a “Contact sales” button. The page highlights benefits and features in icon-based sections (prevent anomalies, reduce truck rolls, lower energy use, scalable/open/customizable/secure), includes an on-demand webinar promo, customer testimonial, “Why Particle” value props, and a bottom CTA to “Build more profitable HVAC systems today."
+        },
+        {
+          "screenshotId": null,
+          "siteId": 84641,
+          "screenshotName": "thumbtack_602009ffbf724d22c02c.png",
+          "companyName": "thumbtack",
+          "category": "Lifestyle",
+          "path": "sites/thumbtack/thumbtack_602009ffbf724d22c02c.png",
+          "imageUrl": "https://zlfyzdmohcskkucuunmk.supabase.co/storage/v1/object/sign/sites/thumbtack/thumbtack_602009ffbf724d22c02c.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81NTU0MmU4OC1mNWRkLTQxMDEtOWZkYy0yODFiMzM3NmYyOTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzaXRlcy90aHVtYnRhY2svdGh1bWJ0YWNrXzYwMjAwOWZmYmY3MjRkMjJjMDJjLnBuZyIsImlhdCI6MTc3ODA0NTM0OSwiZXhwIjoxNzc4MDQ4OTQ5fQ.0p9Q4FWcZHLc1RHHZrkx6R__3SLJh21XytpavpdyU8M",
+          "similarity": 0.485773,
+          "matchCount": 1,
+          "platform": "desktop",
+          "pageUrl": "https://www.thumbtack.com/essential-home-services",
+          "visionDescription": "Home services app landing page promoting essential household repairs and maintenance, featuring categorized tiles for lights/switches, water systems, and temperature control alongside specific buttons for electrical repair, emergency plumbing, and AC repair, with a prominent \"View Services\" call-to-action to book trusted local experts."
+        },
+        {
+          "screenshotId": null,
+          "siteId": 170334,
+          "screenshotName": "homebreeze_bb5f27ab6643a03e45a7.png",
+          "companyName": "homebreeze",
+          "category": "Home and Personal",
+          "path": "sites/homebreeze/homebreeze_bb5f27ab6643a03e45a7.png",
+          "imageUrl": "https://zlfyzdmohcskkucuunmk.supabase.co/storage/v1/object/sign/sites/homebreeze/homebreeze_bb5f27ab6643a03e45a7.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81NTU0MmU4OC1mNWRkLTQxMDEtOWZkYy0yODFiMzM3NmYyOTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzaXRlcy9ob21lYnJlZXplL2hvbWVicmVlemVfYmI1ZjI3YWI2NjQzYTAzZTQ1YTcucG5nIiwiaWF0IjoxNzc4MDQ1MzQ5LCJleHAiOjE3NzgwNDg5NDl9.4w5_HlZyxM6-VjMxNZbejKQtDUk2TDCajzHd3V4PzOo",
+          "similarity": 0.429009,
+          "matchCount": 1,
+          "platform": "desktop",
+          "pageUrl": "https://www.tritonair.com/plumbing-services/plumbing-repair/",
+          "visionDescription": "Landing page for a local plumbing repair service in Southern Orange County, featuring a prominent \"Schedule Service\" call-to-action button, clickable phone number for immediate contact, navigation to Home and Services, and persuasive content sections highlighting expert technicians, emergency response, and reasons to choose their trusted repairs with customer testimonials."
+        },
+        {
+          "screenshotId": null,
+          "siteId": 14276,
+          "screenshotName": "unwind_4e498b3fa33e60f0c8a6.png",
+          "companyName": "unwind",
+          "category": "Health & Fitness",
+          "path": "sites/unwind/unwind_4e498b3fa33e60f0c8a6.png",
+          "imageUrl": "https://zlfyzdmohcskkucuunmk.supabase.co/storage/v1/object/sign/sites/unwind/unwind_4e498b3fa33e60f0c8a6.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81NTU0MmU4OC1mNWRkLTQxMDEtOWZkYy0yODFiMzM3NmYyOTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzaXRlcy91bndpbmQvdW53aW5kXzRlNDk4YjNmYTMzZTYwZjBjOGE2LnBuZyIsImlhdCI6MTc3ODA0NTM0OSwiZXhwIjoxNzc4MDQ4OTQ5fQ.H0JbbA_krqD6ei2xegtyXX_Hx1vXloBSeu-Vdag1fZ0",
+          "similarity": 0.498201,
+          "matchCount": 1,
+          "platform": "desktop",
+          "pageUrl": "https://www.unwindiowa.com/cryotherapy",
+          "visionDescription": "Landing page for a wellness/cryotherapy service promoting “precision cooling for peak recovery,” with navigation to services, team, join now, personal training, and testimonials plus a hero image of session controls. The page highlights benefits, explains how cryotherapy works in 3 steps, shows testimonials and an FAQ accordion, and provides two location sections with addresses, contact info, hours, maps, and policy links."
+        },
+        {
+          "screenshotId": null,
+          "siteId": 6595,
+          "screenshotName": "apple-music_c7242b2d8c8ab4b5d915.png",
+          "companyName": "apple-music",
+          "category": "Music",
+          "path": "sites/apple-music/apple-music_c7242b2d8c8ab4b5d915.png",
+          "imageUrl": "https://zlfyzdmohcskkucuunmk.supabase.co/storage/v1/object/sign/sites/apple-music/apple-music_c7242b2d8c8ab4b5d915.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81NTU0MmU4OC1mNWRkLTQxMDEtOWZkYy0yODFiMzM3NmYyOTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzaXRlcy9hcHBsZS1tdXNpYy9hcHBsZS1tdXNpY19jNzI0MmIyZDhjOGFiNGI1ZDkxNS5wbmciLCJpYXQiOjE3NzgwNDUzNDksImV4cCI6MTc3ODA0ODk0OX0.D6-m04_q48CWt3dXociOShxnrlQUCJAmLrGwv01Zz2U",
+          "similarity": 0.498001,
+          "matchCount": 1,
+          "platform": "desktop",
+          "pageUrl": "https://www.apple.com/retail/geniusbar/",
+          "visionDescription": "Customer support landing page for booking an in‑store tech repair appointment, featuring a primary “Get started” call to action and prep tips like sign-in requirements, bringing essentials, updating the device, and backing up data. The page also promotes related services like trade-in and free store sessions, and includes an expandable FAQ section for common repair and warranty questions."
+        }
+      ]
+    },
+    "product-hero-3d": {
+      "ok": true,
+      "results": [
+        {
+          "screenshotId": null,
+          "siteId": 8864,
+          "screenshotName": "apple-vision-pro_bcc27e97f1033ae4a7d3.png",
+          "companyName": "apple-vision-pro",
+          "category": "Utilities",
+          "path": "sites/apple-vision-pro/apple-vision-pro_bcc27e97f1033ae4a7d3.png",
+          "imageUrl": "https://zlfyzdmohcskkucuunmk.supabase.co/storage/v1/object/sign/sites/apple-vision-pro/apple-vision-pro_bcc27e97f1033ae4a7d3.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81NTU0MmU4OC1mNWRkLTQxMDEtOWZkYy0yODFiMzM3NmYyOTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzaXRlcy9hcHBsZS12aXNpb24tcHJvL2FwcGxlLXZpc2lvbi1wcm9fYmNjMjdlOTdmMTAzM2FlNGE3ZDMucG5nIiwiaWF0IjoxNzc4MDQ1MzUxLCJleHAiOjE3NzgwNDg5NTF9.rS7ci2d6UXu7t2kgWrodG5YOKIkuvxKCyZGO3iJW6ek",
+          "similarity": 0.702312,
+          "matchCount": 1,
+          "platform": "desktop",
+          "pageUrl": "https://www.apple.com/os/visionos/",
+          "visionDescription": "Marketing landing page with a large hero banner image and headline, plus a top navigation bar for exploring product sections. Scrollable layout highlights features and specs in content blocks, and includes a developers update/announcement section with a call to explore the product and a multi-column footer with links."
+        },
+        {
+          "screenshotId": null,
+          "siteId": 151076,
+          "screenshotName": "ensage_c162496815f8842d878b.png",
+          "companyName": "ensage",
+          "category": "Landing Page",
+          "path": "sites/ensage/ensage_c162496815f8842d878b.png",
+          "imageUrl": "https://zlfyzdmohcskkucuunmk.supabase.co/storage/v1/object/sign/sites/ensage/ensage_c162496815f8842d878b.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81NTU0MmU4OC1mNWRkLTQxMDEtOWZkYy0yODFiMzM3NmYyOTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzaXRlcy9lbnNhZ2UvZW5zYWdlX2MxNjI0OTY4MTVmODg0MmQ4NzhiLnBuZyIsImlhdCI6MTc3ODA0NTM1MSwiZXhwIjoxNzc4MDQ4OTUxfQ.wwtbVfCo2_6L1KxZVkvtXk377XuBIfYo-kDDRixXPy8",
+          "similarity": 0.376977,
+          "matchCount": 1,
+          "platform": "desktop",
+          "pageUrl": "https://www.ensage.co/",
+          "visionDescription": "Landing page for a product design service called Onsage, featuring a prominent hero section with a designer's photo, bold tagline \"I DESIGN GO-TO-MARKET DIGITAL PRODUCTS,\" and subtitle explaining focus on business logic, branding, and competitive advantage for product launches, plus bottom expertise highlights in Product Thinking and Product Design. Top navigation bar includes links to Work, About, Clients, Resume, and Contact for exploring portfolio and services."
+        },
+        {
+          "screenshotId": null,
+          "siteId": 17450,
+          "screenshotName": "photoroom_d8ef169d1eb22f003951.png",
+          "companyName": "photoroom",
+          "category": "Photo & Video",
+          "path": "sites/photoroom/photoroom_d8ef169d1eb22f003951.png",
+          "imageUrl": "https://zlfyzdmohcskkucuunmk.supabase.co/storage/v1/object/sign/sites/photoroom/photoroom_d8ef169d1eb22f003951.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81NTU0MmU4OC1mNWRkLTQxMDEtOWZkYy0yODFiMzM3NmYyOTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzaXRlcy9waG90b3Jvb20vcGhvdG9yb29tX2Q4ZWYxNjlkMWViMjJmMDAzOTUxLnBuZyIsImlhdCI6MTc3ODA0NTM1MSwiZXhwIjoxNzc4MDQ4OTUxfQ._MbFPCXYBKVpvGT6FA1_Ujr0FJ6cfP5JGpOxm7y5cTs",
+          "similarity": 0.431142,
+          "matchCount": 1,
+          "platform": "desktop",
+          "pageUrl": "https://www.photoroom.com/en",
+          "visionDescription": "Marketing landing page for an AI photo editing/product visual tool, featuring a hero headline about creating pro visuals with a primary CTA to start creating for free plus navigation to pricing, resources, and sign in. The page highlights feature sections (background removal, batch/automation, on-brand visuals at scale, templates), shows pricing plan cards (Pro/Max/Ultra/Enterprise), customer logos and testimonials, and includes footer links and app download badges."
+        },
+        {
+          "screenshotId": null,
+          "siteId": 69169,
+          "screenshotName": "akeneo_14667dc6939ca2bd0336.png",
+          "companyName": "akeneo",
+          "category": "SaaS",
+          "path": "sites/akeneo/akeneo_14667dc6939ca2bd0336.png",
+          "imageUrl": "https://zlfyzdmohcskkucuunmk.supabase.co/storage/v1/object/sign/sites/akeneo/akeneo_14667dc6939ca2bd0336.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81NTU0MmU4OC1mNWRkLTQxMDEtOWZkYy0yODFiMzM3NmYyOTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzaXRlcy9ha2VuZW8vYWtlbmVvXzE0NjY3ZGM2OTM5Y2EyYmQwMzM2LnBuZyIsImlhdCI6MTc3ODA0NTM1MSwiZXhwIjoxNzc4MDQ4OTUxfQ.0nTe7_9vGt-7SkBKRDZgVUlrAisB4rbASk-AVcdfYC0",
+          "similarity": 0.375804,
+          "matchCount": 1,
+          "platform": "desktop",
+          "pageUrl": "https://www.akeneo.com/omnichannel-activation/",
+          "visionDescription": "Akeneo's homepage landing page with a prominent hero section headline promoting omnichannel product experiences that help customers discover and purchase products across retail and marketplace channels, featuring client logos like Walmart, Shein, and Best Buy, alongside a top navigation bar for Products, Solutions, Resources, Login, and a standout purple Get Trial CTA button."
+        },
+        {
+          "screenshotId": null,
+          "siteId": 14173,
+          "screenshotName": "polycam_1ff958d1aed6cdcba639.png",
+          "companyName": "polycam",
+          "category": "Photo & Video",
+          "path": "sites/polycam/polycam_1ff958d1aed6cdcba639.png",
+          "imageUrl": "https://zlfyzdmohcskkucuunmk.supabase.co/storage/v1/object/sign/sites/polycam/polycam_1ff958d1aed6cdcba639.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81NTU0MmU4OC1mNWRkLTQxMDEtOWZkYy0yODFiMzM3NmYyOTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzaXRlcy9wb2x5Y2FtL3BvbHljYW1fMWZmOTU4ZDFhZWQ2Y2RjYmE2MzkucG5nIiwiaWF0IjoxNzc4MDQ1MzUxLCJleHAiOjE3NzgwNDg5NTF9.kBNLzaHaK2m8W9THLeDOVAYwVjGisO9EQdWasbszCLY",
+          "similarity": 0.657507,
+          "matchCount": 1,
+          "platform": "desktop",
+          "pageUrl": "https://poly.cam/solutions/3d-vfx",
+          "visionDescription": "Marketing landing page for a 3D asset store and capture platform featuring a hero headline with primary CTA buttons, product imagery, and sections explaining features, integrations, and workflow for creating and using 3D assets. Includes industry solution tiles/use cases, statistics and testimonials, and a footer with navigation links and social icons."
+        },
+        {
+          "screenshotId": null,
+          "siteId": 164798,
+          "screenshotName": "ander-agency_e83ba538b91ab834eeb5.png",
+          "companyName": "ander-agency",
+          "category": "Landing Page",
+          "path": "sites/ander-agency/ander-agency_e83ba538b91ab834eeb5.png",
+          "imageUrl": "https://zlfyzdmohcskkucuunmk.supabase.co/storage/v1/object/sign/sites/ander-agency/ander-agency_e83ba538b91ab834eeb5.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81NTU0MmU4OC1mNWRkLTQxMDEtOWZkYy0yODFiMzM3NmYyOTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzaXRlcy9hbmRlci1hZ2VuY3kvYW5kZXItYWdlbmN5X2U4M2JhNTM4YjkxYWI4MzRlZWI1LnBuZyIsImlhdCI6MTc3ODA0NTM1MSwiZXhwIjoxNzc4MDQ4OTUxfQ.V8y2VrMM1whN8iVSq5gkGoyK68LRBTrdTZy2b9bdCVY",
+          "similarity": 0.375059,
+          "matchCount": 1,
+          "platform": "desktop",
+          "pageUrl": "https://www.ander.agency/works/render-that",
+          "visionDescription": "Gallery screen in a 3D rendering platform showcasing a grid of high-end product visualizations, animations, re-renders, and marketing assets like shoes and furniture, with left sidebar filters for renders, software, country, and summary, plus top navigation for builder tools, applying for new projects, and collaboration features."
+        }
+      ]
+    },
+    "industrial-equipment": {
+      "ok": true,
+      "results": [
+        {
+          "screenshotId": null,
+          "siteId": 11153,
+          "screenshotName": "alibaba_426b56650e3b2a694798.png",
+          "companyName": "alibaba",
+          "category": "Shopping",
+          "path": "sites/alibaba/alibaba_426b56650e3b2a694798.png",
+          "imageUrl": "https://zlfyzdmohcskkucuunmk.supabase.co/storage/v1/object/sign/sites/alibaba/alibaba_426b56650e3b2a694798.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81NTU0MmU4OC1mNWRkLTQxMDEtOWZkYy0yODFiMzM3NmYyOTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzaXRlcy9hbGliYWJhL2FsaWJhYmFfNDI2YjU2NjUwZTNiMmE2OTQ3OTgucG5nIiwiaWF0IjoxNzc4MDQ1MzU1LCJleHAiOjE3NzgwNDg5NTV9.WD7pEH6svVOOkle-xmIv4Y0MQHT21tI4LU0PPDoVPRU",
+          "similarity": 0.395719,
+          "matchCount": 1,
+          "platform": "desktop",
+          "pageUrl": "https://www.alibaba.com/trade/search?&has4Tab=true",
+          "visionDescription": "E-commerce search results page showing a scrollable grid of product cards with images, prices, ratings, and shipping/supplier details, plus quick actions to view item details, add to cart, or contact the seller. Includes left-side navigation and filters for categories, location, and other facets, with a top search bar and sorting controls to refine results."
+        },
+        {
+          "screenshotId": null,
+          "siteId": 10922,
+          "screenshotName": "asana_88106fb448383dee5bb2.png",
+          "companyName": "asana",
+          "category": "Business",
+          "path": "sites/asana/asana_88106fb448383dee5bb2.png",
+          "imageUrl": "https://zlfyzdmohcskkucuunmk.supabase.co/storage/v1/object/sign/sites/asana/asana_88106fb448383dee5bb2.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81NTU0MmU4OC1mNWRkLTQxMDEtOWZkYy0yODFiMzM3NmYyOTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzaXRlcy9hc2FuYS9hc2FuYV84ODEwNmZiNDQ4MzgzZGVlNWJiMi5wbmciLCJpYXQiOjE3NzgwNDUzNTUsImV4cCI6MTc3ODA0ODk1NX0.8ZYTuswfbsdI1vi4YKs-f_YQupzzAMMuH4-NhowK_-Y",
+          "similarity": 0.618298,
+          "matchCount": 1,
+          "platform": "desktop",
+          "pageUrl": "https://asana.com/en/industry/manufacturing",
+          "visionDescription": "Long-form marketing landing page for a manufacturing-focused work management platform, featuring a hero headline with primary CTA buttons (get started/trial and contact sales), customer logos, and product images. The page scrolls through use cases and benefits, case studies, analyst/award badges, feature callouts, FAQ accordion, and a footer with links and secondary CTAs."
+        },
+        {
+          "screenshotId": null,
+          "siteId": 60507,
+          "screenshotName": "threekit_12c3c7298da96a7fb72c.png",
+          "companyName": "threekit",
+          "category": "SaaS",
+          "path": "sites/threekit/threekit_12c3c7298da96a7fb72c.png",
+          "imageUrl": "https://zlfyzdmohcskkucuunmk.supabase.co/storage/v1/object/sign/sites/threekit/threekit_12c3c7298da96a7fb72c.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81NTU0MmU4OC1mNWRkLTQxMDEtOWZkYy0yODFiMzM3NmYyOTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzaXRlcy90aHJlZWtpdC90aHJlZWtpdF8xMmMzYzcyOThkYTk2YTdmYjcyYy5wbmciLCJpYXQiOjE3NzgwNDUzNTUsImV4cCI6MTc3ODA0ODk1NX0.mDNtNIdrCUjlzSAFacCYTG6QQFHQXEH7buTerMQctDY",
+          "similarity": 0.47247,
+          "matchCount": 1,
+          "platform": "desktop",
+          "pageUrl": "https://www.threekit.com/industry/heavy-machinery",
+          "visionDescription": "Fleetkit landing page for a guided selling platform tailored to heavy machinery buyers, enabling real-time customization, purchasing of equipment and accessories, and personalized recommendations, highlighted by a prominent \"Get Started\" CTA button, hero images of excavators and attachments, and cards showcasing equipment and priced recommended attachments."
+        },
+        {
+          "screenshotId": null,
+          "siteId": 182568,
+          "screenshotName": "bear-robotics_cfbdcb8edaa80a961b4b.png",
+          "companyName": "bear-robotics",
+          "category": "Service Robots",
+          "path": "sites/bear-robotics/bear-robotics_cfbdcb8edaa80a961b4b.png",
+          "imageUrl": "https://zlfyzdmohcskkucuunmk.supabase.co/storage/v1/object/sign/sites/bear-robotics/bear-robotics_cfbdcb8edaa80a961b4b.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81NTU0MmU4OC1mNWRkLTQxMDEtOWZkYy0yODFiMzM3NmYyOTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzaXRlcy9iZWFyLXJvYm90aWNzL2JlYXItcm9ib3RpY3NfY2ZiZGNiOGVkYWE4MGE5NjFiNGIucG5nIiwiaWF0IjoxNzc4MDQ1MzU1LCJleHAiOjE3NzgwNDg5NTV9.oZIsxwhlpQVV7zNGqht_oq5dm5bZWqDZzRykxtFzmbA",
+          "similarity": 0.452361,
+          "matchCount": 1,
+          "platform": "desktop",
+          "pageUrl": "https://www.bearrobotics.ai/carti",
+          "visionDescription": "Product landing page for CARTI100 Industrial AMR robot, featuring high-resolution front and side images of the white autonomous mobile robot with shelves and mechanical arms on a clean minimalist layout, prominent blue \"Request a quote\" CTA button, and top navigation bar including Products, Industry, About, Resources, and Sign up links."
+        },
+        {
+          "screenshotId": null,
+          "siteId": 17111,
+          "screenshotName": "workday_1dd73763faaeef259079.png",
+          "companyName": "workday",
+          "category": "Business",
+          "path": "sites/workday/workday_1dd73763faaeef259079.png",
+          "imageUrl": "https://zlfyzdmohcskkucuunmk.supabase.co/storage/v1/object/sign/sites/workday/workday_1dd73763faaeef259079.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81NTU0MmU4OC1mNWRkLTQxMDEtOWZkYy0yODFiMzM3NmYyOTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzaXRlcy93b3JrZGF5L3dvcmtkYXlfMWRkNzM3NjNmYWFlZWYyNTkwNzkucG5nIiwiaWF0IjoxNzc4MDQ1MzU1LCJleHAiOjE3NzgwNDg5NTV9.3h94rD2oxhj9E07-5QbEJUF1bX5orE3zbSXpKSyYsbE",
+          "similarity": 0.611466,
+          "matchCount": 1,
+          "platform": "desktop",
+          "pageUrl": "https://www.workday.com/en-us/solutions/industries/manufacturing.html",
+          "visionDescription": "Marketing landing page for a manufacturing talent solutions product, featuring a hero headline with video preview and primary CTA, customer logos, and sections highlighting an AI platform and proof-point statistics. The page includes industry cards, feature overviews for the manufacturing talent lifecycle, customer story thumbnails, partner marketplace promo, resource links, and a “Ready to talk / Contact sales” call to action with full site navigation and footer."
+        },
+        {
+          "screenshotId": null,
+          "siteId": 262,
+          "screenshotName": "github_6f6cfda77e543dd5064b.png",
+          "companyName": "github",
+          "category": "Developer Tools",
+          "path": "sites/github/github_6f6cfda77e543dd5064b.png",
+          "imageUrl": "https://zlfyzdmohcskkucuunmk.supabase.co/storage/v1/object/sign/sites/github/github_6f6cfda77e543dd5064b.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81NTU0MmU4OC1mNWRkLTQxMDEtOWZkYy0yODFiMzM3NmYyOTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzaXRlcy9naXRodWIvZ2l0aHViXzZmNmNmZGE3N2U1NDNkZDUwNjRiLnBuZyIsImlhdCI6MTc3ODA0NTM1NSwiZXhwIjoxNzc4MDQ4OTU1fQ.UJNhDsIXWHWbDc_7RAbRFFuV-6zQmh-qLCNzK7O_du4",
+          "similarity": 0.591619,
+          "matchCount": 1,
+          "platform": "desktop",
+          "pageUrl": "https://github.com/solutions/industry/manufacturing",
+          "visionDescription": "Marketing landing page for an AI-powered manufacturing/DevOps platform featuring a hero headline with primary CTAs (start free trial, contact sales) and an embedded promo video. The page highlights benefit sections and feature cards (security, automation, industrial innovation), includes customer logos and testimonial/case study links, and ends with a secondary call-to-action and full footer navigation."
+        }
+      ]
+    },
+    "booking-service-flow": {
+      "ok": true,
+      "results": [
+        {
+          "screenshotId": null,
+          "siteId": 16658,
+          "screenshotName": "pages_ae2489a7739416a64cb2.png",
+          "companyName": "pages",
+          "category": "Productivity",
+          "path": "sites/pages/pages_ae2489a7739416a64cb2.png",
+          "imageUrl": "https://zlfyzdmohcskkucuunmk.supabase.co/storage/v1/object/sign/sites/pages/pages_ae2489a7739416a64cb2.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81NTU0MmU4OC1mNWRkLTQxMDEtOWZkYy0yODFiMzM3NmYyOTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzaXRlcy9wYWdlcy9wYWdlc19hZTI0ODlhNzczOTQxNmE2NGNiMi5wbmciLCJpYXQiOjE3NzgwNDUzNTgsImV4cCI6MTc3ODA0ODk1OH0.pffqjMiIsGKMBh9v2DvXKrIyCbtsaCH_38pk9JbUAMc",
+          "similarity": 0.476689,
+          "matchCount": 2,
+          "platform": "desktop",
+          "pageUrl": "https://support.apple.com/repair",
+          "visionDescription": "Apple Service and Repair landing page that helps users start a repair or service request and choose a device category (iPhone, Mac, iPad, Apple Watch, AirPods, more) to view service options and common repair pricing. Includes sections explaining why to use official repair, plus FAQ links for tracking repair status, checking warranty/AppleCare coverage, finding authorized service providers, and self-service repair information."
+        },
+        {
+          "screenshotId": null,
+          "siteId": 6595,
+          "screenshotName": "apple-music_c7242b2d8c8ab4b5d915.png",
+          "companyName": "apple-music",
+          "category": "Music",
+          "path": "sites/apple-music/apple-music_c7242b2d8c8ab4b5d915.png",
+          "imageUrl": "https://zlfyzdmohcskkucuunmk.supabase.co/storage/v1/object/sign/sites/apple-music/apple-music_c7242b2d8c8ab4b5d915.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81NTU0MmU4OC1mNWRkLTQxMDEtOWZkYy0yODFiMzM3NmYyOTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzaXRlcy9hcHBsZS1tdXNpYy9hcHBsZS1tdXNpY19jNzI0MmIyZDhjOGFiNGI1ZDkxNS5wbmciLCJpYXQiOjE3NzgwNDUzNTgsImV4cCI6MTc3ODA0ODk1OH0.w7tLMtPvRy0ys4NIH3hfNBiiiI8RM4hbxn1WWp5N3QA",
+          "similarity": 0.51808,
+          "matchCount": 1,
+          "platform": "desktop",
+          "pageUrl": "https://www.apple.com/retail/geniusbar/",
+          "visionDescription": "Customer support landing page for booking an in‑store tech repair appointment, featuring a primary “Get started” call to action and prep tips like sign-in requirements, bringing essentials, updating the device, and backing up data. The page also promotes related services like trade-in and free store sessions, and includes an expandable FAQ section for common repair and warranty questions."
+        },
+        {
+          "screenshotId": null,
+          "siteId": 158929,
+          "screenshotName": "biggerpicture_245e8961e18e53a3531b.png",
+          "companyName": "biggerpicture",
+          "category": "B2B",
+          "path": "sites/biggerpicture/biggerpicture_245e8961e18e53a3531b.png",
+          "imageUrl": "https://zlfyzdmohcskkucuunmk.supabase.co/storage/v1/object/sign/sites/biggerpicture/biggerpicture_245e8961e18e53a3531b.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81NTU0MmU4OC1mNWRkLTQxMDEtOWZkYy0yODFiMzM3NmYyOTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzaXRlcy9iaWdnZXJwaWN0dXJlL2JpZ2dlcnBpY3R1cmVfMjQ1ZTg5NjFlMThlNTNhMzUzMWIucG5nIiwiaWF0IjoxNzc4MDQ1MzU4LCJleHAiOjE3NzgwNDg5NTh9.WMsg2TP7JGZrXAcMefTT3aBhARN4LMthL0sSd5RIrSk",
+          "similarity": 0.384497,
+          "matchCount": 1,
+          "platform": "desktop",
+          "pageUrl": "https://biggerpicture.co/pluginops_forms/",
+          "visionDescription": "A modal popup contact form on a business landing page prompts users to inquire about product opportunities, featuring input fields for name, email, phone, company, and message, a dropdown selector for user type, and a prominent orange \"Get in Touch Today\" submit button, with a close icon for dismissal."
+        },
+        {
+          "screenshotId": null,
+          "siteId": 5326,
+          "screenshotName": "tbr_198d7423a955b5be0cd3.png",
+          "companyName": "tbr",
+          "category": "Magazines & Newspapers",
+          "path": "sites/tbr/tbr_198d7423a955b5be0cd3.png",
+          "imageUrl": "https://zlfyzdmohcskkucuunmk.supabase.co/storage/v1/object/sign/sites/tbr/tbr_198d7423a955b5be0cd3.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81NTU0MmU4OC1mNWRkLTQxMDEtOWZkYy0yODFiMzM3NmYyOTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzaXRlcy90YnIvdGJyXzE5OGQ3NDIzYTk1NWI1YmUwY2QzLnBuZyIsImlhdCI6MTc3ODA0NTM1OCwiZXhwIjoxNzc4MDQ4OTU4fQ.KLt3v-3Ot2bTmuE8a9McI6EBOsCHeoc4d1WYvcHQBrs",
+          "similarity": 0.4393,
+          "matchCount": 1,
+          "platform": "desktop",
+          "pageUrl": "https://mytbr.co/support/",
+          "visionDescription": "Customer support contact form for a subscription service, prompting users to submit an issue by entering name, email, order number, selecting an issue type from a dropdown, and writing a description. Includes reCAPTCHA verification and a Submit button, with a link to FAQs for self-service help."
+        },
+        {
+          "screenshotId": null,
+          "siteId": 17189,
+          "screenshotName": "fashionphile_405202aff5ad24868096.png",
+          "companyName": "fashionphile",
+          "category": "Shopping",
+          "path": "sites/fashionphile/fashionphile_405202aff5ad24868096.png",
+          "imageUrl": "https://zlfyzdmohcskkucuunmk.supabase.co/storage/v1/object/sign/sites/fashionphile/fashionphile_405202aff5ad24868096.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81NTU0MmU4OC1mNWRkLTQxMDEtOWZkYy0yODFiMzM3NmYyOTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzaXRlcy9mYXNoaW9ucGhpbGUvZmFzaGlvbnBoaWxlXzQwNTIwMmFmZjVhZDI0ODY4MDk2LnBuZyIsImlhdCI6MTc3ODA0NTM1OCwiZXhwIjoxNzc4MDQ4OTU4fQ.0MI_xSYnj_UdzZk63guJnpVo9-VMEgfqHmroJ2ILtjw",
+          "similarity": 0.494,
+          "matchCount": 1,
+          "platform": "desktop",
+          "pageUrl": "https://www.fashionphile.com/pages/certified",
+          "visionDescription": "Landing page for a luxury fashion authentication service explaining “Certified” item verification, with calls to book an appointment at a selected flagship location and details on pricing per piece, turnaround time, and supported brands. Includes a “How it works” step-by-step (book, drop off, pick up) plus options to join a reseller partner program and explore help/guidance resources."
+        },
+        {
+          "screenshotId": null,
+          "siteId": 110535,
+          "screenshotName": "substrate_5cb65ba4612a1e84a389.png",
+          "companyName": "substrate",
+          "category": "B2B",
+          "path": "sites/substrate/substrate_5cb65ba4612a1e84a389.png",
+          "imageUrl": "https://zlfyzdmohcskkucuunmk.supabase.co/storage/v1/object/sign/sites/substrate/substrate_5cb65ba4612a1e84a389.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81NTU0MmU4OC1mNWRkLTQxMDEtOWZkYy0yODFiMzM3NmYyOTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzaXRlcy9zdWJzdHJhdGUvc3Vic3RyYXRlXzVjYjY1YmE0NjEyYTFlODRhMzg5LnBuZyIsImlhdCI6MTc3ODA0NTM1OCwiZXhwIjoxNzc4MDQ4OTU4fQ.P2OFMaSZsnFnQLdB6SkYxg3zbUFmXAMMJ2cWuEtifsA",
+          "similarity": 0.375474,
+          "matchCount": 1,
+          "platform": "desktop",
+          "pageUrl": "https://www.substrateai.com/demo",
+          "visionDescription": "A B2B SaaS demo booking form featuring fields for full name, company name, practice area, daily claim volume, and revenue cycle team size, with a disclosure checkbox and prominent \"Book\" call-to-action button to capture qualified leads for legal or claims management consultations. Clean, centered layout with top navigation for products, resources, and pricing."
+        }
+      ]
+    },
+    "compare-current": {
+      "ok": true,
+      "results": [
+        {
+          "screenshotId": 20426,
+          "screenshotName": "2025_05_18_16-52-09_83BC6DDE.png",
+          "companyName": "costco",
+          "category": "Shopping",
+          "path": "screenshots/85z_costco/compare/!shop-flow_step-25/2025_05_18_16-52-09_83BC6DDE.png",
+          "similarity": 0.377426,
+          "imageUrl": "https://zlfyzdmohcskkucuunmk.supabase.co/storage/v1/object/sign/screenshots/85z_costco/compare/!shop-flow_step-25/2025_05_18_16-52-09_83BC6DDE.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81NTU0MmU4OC1mNWRkLTQxMDEtOWZkYy0yODFiMzM3NmYyOTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzY3JlZW5zaG90cy84NXpfY29zdGNvL2NvbXBhcmUvIXNob3AtZmxvd19zdGVwLTI1LzIwMjVfMDVfMThfMTYtNTItMDlfODNCQzZEREUucG5nIiwiaWF0IjoxNzc4MDQ1MzYyLCJleHAiOjE3NzgwNDg5NjJ9.MXJ7YhjlEu37tC_Qme_oi85cT9XRgx1-s3V8vCAft3g"
+        },
+        {
+          "screenshotId": 78580,
+          "screenshotName": "2024_10_06_12-57-58_D65401F1.png",
+          "companyName": "lemonade",
+          "category": "Finance",
+          "path": "screenshots/fin120_lemonade/lazyscreenshots/2024_10_06_12-57-58_D65401F1.png",
+          "similarity": 0.3531,
+          "imageUrl": "https://zlfyzdmohcskkucuunmk.supabase.co/storage/v1/object/sign/screenshots/fin120_lemonade/lazyscreenshots/2024_10_06_12-57-58_D65401F1.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81NTU0MmU4OC1mNWRkLTQxMDEtOWZkYy0yODFiMzM3NmYyOTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzY3JlZW5zaG90cy9maW4xMjBfbGVtb25hZGUvbGF6eXNjcmVlbnNob3RzLzIwMjRfMTBfMDZfMTItNTctNThfRDY1NDAxRjEucG5nIiwiaWF0IjoxNzc4MDQ1MzYyLCJleHAiOjE3NzgwNDg5NjJ9.F3zfsd1m57e_t5x6pzyCkGsn3YphTwl18cxjktLz1Ws"
+        },
+        {
+          "screenshotId": 78581,
+          "screenshotName": "2024_10_06_18-10-28_2A1CCF19.png",
+          "companyName": "lemonade",
+          "category": "Finance",
+          "path": "screenshots/fin120_lemonade/lazyscreenshots/2024_10_06_18-10-28_2A1CCF19.png",
+          "similarity": 0.346855,
+          "imageUrl": "https://zlfyzdmohcskkucuunmk.supabase.co/storage/v1/object/sign/screenshots/fin120_lemonade/lazyscreenshots/2024_10_06_18-10-28_2A1CCF19.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81NTU0MmU4OC1mNWRkLTQxMDEtOWZkYy0yODFiMzM3NmYyOTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzY3JlZW5zaG90cy9maW4xMjBfbGVtb25hZGUvbGF6eXNjcmVlbnNob3RzLzIwMjRfMTBfMDZfMTgtMTAtMjhfMkExQ0NGMTkucG5nIiwiaWF0IjoxNzc4MDQ1MzYyLCJleHAiOjE3NzgwNDg5NjJ9.hy0a1LA9FZQX6K94q-dQbnLRDiulIIbxhgZ7NVvUGO0"
+        },
+        {
+          "screenshotId": 18922,
+          "screenshotName": "2025_05_18_17-14-27_DE10D5F1.png",
+          "companyName": "spring-health",
+          "category": "Health & Fitness",
+          "path": "screenshots/51z_spring-health/compare/!onboarding-flow_step-1/2025_05_18_17-14-27_DE10D5F1.png",
+          "similarity": 0.344686,
+          "imageUrl": "https://zlfyzdmohcskkucuunmk.supabase.co/storage/v1/object/sign/screenshots/51z_spring-health/compare/!onboarding-flow_step-1/2025_05_18_17-14-27_DE10D5F1.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81NTU0MmU4OC1mNWRkLTQxMDEtOWZkYy0yODFiMzM3NmYyOTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzY3JlZW5zaG90cy81MXpfc3ByaW5nLWhlYWx0aC9jb21wYXJlLyFvbmJvYXJkaW5nLWZsb3dfc3RlcC0xLzIwMjVfMDVfMThfMTctMTQtMjdfREUxMEQ1RjEucG5nIiwiaWF0IjoxNzc4MDQ1MzYyLCJleHAiOjE3NzgwNDg5NjJ9.22r9SjB3OLZ_j2692gxojZnBc2E6AgcupIiAZahr2Ic"
+        },
+        {
+          "screenshotId": 65770,
+          "screenshotName": "t_ - 773.PNG",
+          "companyName": "gauthmath",
+          "category": "Education",
+          "path": "screenshots/uploaded_gauthmath/compare/2026-01-28/1771003841185_t__-_773.PNG",
+          "similarity": 0.344391,
+          "imageUrl": "https://zlfyzdmohcskkucuunmk.supabase.co/storage/v1/object/sign/screenshots/uploaded_gauthmath/compare/2026-01-28/1771003841185_t__-_773.PNG?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81NTU0MmU4OC1mNWRkLTQxMDEtOWZkYy0yODFiMzM3NmYyOTIiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzY3JlZW5zaG90cy91cGxvYWRlZF9nYXV0aG1hdGgvY29tcGFyZS8yMDI2LTAxLTI4LzE3NzEwMDM4NDExODVfdF9fLV83NzMuUE5HIiwiaWF0IjoxNzc4MDQ1MzYyLCJleHAiOjE3NzgwNDg5NjJ9.bIrPiMC6BV7b1iIt8gq0o5GTmGxVrEvJYkxPdUowD5s"
+        }
+      ]
+    }
+  },
+  "health": {
+    "ok": true,
+    "status": "healthy",
+    "checks": {
+      "supabase": "ok",
+      "openai": "ok",
+      "voyage": "ok",
+      "cohere": "ok"
+    }
+  },
+  "tools": [
+    "lazyweb_search",
+    "lazyweb_compare_image",
+    "lazyweb_find_similar",
+    "lazyweb_list_categories",
+    "lazyweb_list_collections",
+    "lazyweb_health"
+  ]
+}

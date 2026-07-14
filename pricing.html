@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HVAC Repair Pricing | AR Air</title>
+    <meta
+      name="description"
+      content="Common HVAC repair pricing from AR Air, including capacitors, contactors, fan motors, blower motors, thermostats, refrigerant repairs, furnace repairs, mini split repairs, and replacements."
+    />
+    <meta name="theme-color" content="#eef8ff" />
+    <link rel="icon" href="assets/ar-air-mark-gradient.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css?v=pricing-page-2026-05-11" />
+  </head>
+  <body class="ar-redesign">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="air-page">
+      <div class="air-alert" aria-label="Emergency service notice">
+        <div class="air-wrap air-alert__inner">
+          <span>24/7 Emergency Service</span>
+          <a href="tel:+19165479721">Call +1 (916) 547-9721</a>
+        </div>
+      </div>
+
+      <header class="air-header">
+        <nav class="air-nav air-wrap" aria-label="Main navigation">
+          <a class="air-logo" href="index.html" aria-label="AR Air home">
+            <img src="assets/ar-air-mark-gradient.svg" alt="AR Air" />
+          </a>
+
+          <div class="air-nav__links" id="nav-links">
+            <a href="index.html#services">Services</a>
+            <a href="index.html#response">Response</a>
+            <a href="pricing.html" aria-current="page">Pricing</a>
+            <a href="index.html#plans">Plans</a>
+            <a href="index.html#quote">Contact</a>
+          </div>
+
+          <div class="air-nav__actions">
+            <a class="air-phone" href="tel:+19165479721">+1 (916) 547-9721</a>
+            <a class="air-btn air-btn--primary" href="index.html#quote">Request Quote</a>
+            <button class="mobile-toggle air-menu" type="button" aria-label="Open menu" aria-controls="nav-links" aria-expanded="false">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </nav>
+      </header>
+
+      <main id="main">
+        <section class="air-pricing air-pricing-page" id="pricing" aria-labelledby="pricing-title">
+          <div class="air-wrap">
+            <div class="air-pricing__intro" data-reveal>
+              <div>
+                <p class="air-kicker">Common repair pricing</p>
+                <h1 id="pricing-title">Find the repair price before you book.</h1>
+                <p class="air-pricing__lead">Search common HVAC, refrigeration, and electrical repairs, then call or text AR Air for same-day confirmation.</p>
+              </div>
+              <div class="air-pricing__note">
+                <p>Transparent starting points for common repairs. Final pricing can depend on diagnosis, access, equipment condition, and part availability.</p>
+                <a class="air-btn air-btn--primary" href="index.html#quote">Book Appointment</a>
+              </div>
+            </div>
+
+            <div class="air-price-finder" data-reveal>
+              <div class="air-price-finder__copy">
+                <label for="pricing-search">Search repair, symptom, or part</label>
+                <div class="air-price-search">
+                  <input id="pricing-search" type="search" placeholder="Try capacitor, blower motor, drain line, thermostat..." autocomplete="off" />
+                  <button class="air-btn air-btn--dark" type="button" data-price-clear>Clear</button>
+                </div>
+                <div class="air-price-filters" role="group" aria-label="Filter repair prices by category">
+                  <button type="button" class="is-active" data-price-filter="all">All</button>
+                  <button type="button" data-price-filter="electrical">Electrical</button>
+                  <button type="button" data-price-filter="motors">Motors</button>
+                  <button type="button" data-price-filter="heating">Heating</button>
+                  <button type="button" data-price-filter="cooling">Cooling</button>
+                  <button type="button" data-price-filter="drainage">Drainage</button>
+                  <button type="button" data-price-filter="mini-splits">Mini Splits</button>
+                </div>
+                <p class="air-price-count" id="pricing-result-count" aria-live="polite">Showing all common repairs.</p>
+              </div>
+              <figure class="air-price-finder__media" aria-label="AR Air HVAC equipment render">
+                <img src="assets/ac-condenser-ar-centered-large.png" alt="AR Air branded condenser unit" />
+              </figure>
+            </div>
+
+            <div class="air-price-highlights" aria-label="Popular repair prices" data-reveal>
+              <button type="button" class="air-price-highlight" data-price-query="Capacitor Replacement">
+                <span>Most common</span>
+                <strong>Capacitor Replacement</strong>
+                <em>$275</em>
+              </button>
+              <button type="button" class="air-price-highlight" data-price-query="Condenser Fan Motor Replacement">
+                <span>Cooling repair</span>
+                <strong>Condenser Fan Motor</strong>
+                <em>$650</em>
+              </button>
+              <button type="button" class="air-price-highlight" data-price-query="Drain Line Clearing">
+                <span>Water issue</span>
+                <strong>Drain Line Clearing</strong>
+                <em>$185</em>
+              </button>
+              <button type="button" class="air-price-highlight" data-price-query="Smart Thermostat Install">
+                <span>Upgrade</span>
+                <strong>Smart Thermostat Install</strong>
+                <em>$250</em>
+              </button>
+            </div>
+
+            <div class="air-price-layout">
+              <nav class="air-price-nav" aria-label="Pricing categories" data-reveal>
+                <span>Categories</span>
+                <a href="#price-electrical">Electrical + Controls</a>
+                <a href="#price-motors">Motors + Airflow</a>
+                <a href="#price-heating">Heating Repairs</a>
+                <a href="#price-cooling">Cooling + Refrigerant</a>
+                <a href="#price-drainage">Drainage + Indoor Air</a>
+                <a href="#price-mini-splits">Mini Splits + Air Handlers</a>
+              </nav>
+
+              <div class="air-price-results">
+                <p class="air-price-empty" hidden>No matching repair prices found. Call or text AR Air and we will help identify the issue.</p>
+                <div class="air-price-book" aria-label="AR Air common repair pricing">
+                  <article class="air-price-group" id="price-electrical" data-price-category="electrical" data-reveal>
+                <header>
+                  <span>01</span>
+                  <h2>Electrical + Controls</h2>
+                </header>
+                <dl class="air-price-list">
+                  <div><dt>Capacitor Replacement</dt><dd>$275</dd></div>
+                  <div><dt>Contactor Replacement</dt><dd>$250</dd></div>
+                  <div><dt>Hard Start Kit Install</dt><dd>$275</dd></div>
+                  <div><dt>Standard Thermostat Replacement</dt><dd>$180</dd></div>
+                  <div><dt>Smart Thermostat Install</dt><dd>$250</dd></div>
+                  <div><dt>24V Transformer Replacement</dt><dd>$275</dd></div>
+                  <div><dt>AC/Furnace Control Board Replacement</dt><dd>$500</dd></div>
+                  <div><dt>Zone Board Replacement</dt><dd>$750</dd></div>
+                  <div><dt>Disconnect Replacement</dt><dd>$275</dd></div>
+                  <div><dt>Breaker Replacement</dt><dd>$275</dd></div>
+                  <div><dt>Fuse Replacement</dt><dd>$125</dd></div>
+                  <div><dt>Relay Replacement</dt><dd>$195</dd></div>
+                  <div><dt>Sequencer Replacement</dt><dd>$250</dd></div>
+                  <div><dt>Capacitor + Contactor Combo</dt><dd>$450</dd></div>
+                </dl>
+                  </article>
+
+                  <article class="air-price-group" id="price-motors" data-price-category="motors" data-reveal>
+                <header>
+                  <span>02</span>
+                  <h2>Motors + Airflow</h2>
+                </header>
+                <dl class="air-price-list">
+                  <div><dt>Condenser Fan Motor Replacement</dt><dd>$650</dd></div>
+                  <div><dt>Blower Motor Replacement</dt><dd>$950</dd></div>
+                  <div><dt>ECM Variable Speed Motor Replacement</dt><dd>$1,650</dd></div>
+                  <div><dt>Inducer Motor Replacement</dt><dd>$500</dd></div>
+                  <div><dt>Draft Inducer Assembly Replacement</dt><dd>$1,100</dd></div>
+                  <div><dt>Damper Motor Replacement</dt><dd>$395</dd></div>
+                  <div><dt>Fan Blade Replacement</dt><dd>$275</dd></div>
+                </dl>
+                  </article>
+
+                  <article class="air-price-group" id="price-heating" data-price-category="heating" data-reveal>
+                <header>
+                  <span>03</span>
+                  <h2>Heating Repairs</h2>
+                </header>
+                <dl class="air-price-list">
+                  <div><dt>Ignitor Replacement</dt><dd>$250</dd></div>
+                  <div><dt>Flame Sensor Cleaning</dt><dd>$95</dd></div>
+                  <div><dt>Flame Sensor Replacement</dt><dd>$195</dd></div>
+                  <div><dt>Pressure Switch Replacement</dt><dd>$325</dd></div>
+                  <div><dt>Gas Valve Replacement</dt><dd>$500</dd></div>
+                  <div><dt>Heat Strip Replacement</dt><dd>$550</dd></div>
+                  <div><dt>Furnace Heat Exchanger Replacement</dt><dd>$4,200</dd></div>
+                  <div><dt>Furnace Replacement</dt><dd>$7,500</dd></div>
+                </dl>
+                  </article>
+
+                  <article class="air-price-group" id="price-cooling" data-price-category="cooling" data-reveal>
+                <header>
+                  <span>04</span>
+                  <h2>Cooling + Refrigerant</h2>
+                </header>
+                <dl class="air-price-list">
+                  <div><dt>Compressor Replacement</dt><dd>Book Appointment for Price</dd></div>
+                  <div><dt>Evaporator Coil Replacement</dt><dd>$2,950</dd></div>
+                  <div><dt>TXV Replacement</dt><dd>$1,200</dd></div>
+                  <div><dt>Refrigerant Leak Repair</dt><dd>$950-$2,000</dd></div>
+                  <div><dt>Suction Line Repair</dt><dd>$850</dd></div>
+                  <div><dt>Filter Dryer Replacement</dt><dd>$450</dd></div>
+                  <div><dt>Reversing Valve Replacement</dt><dd>$1,450</dd></div>
+                  <div><dt>Defrost Board Replacement</dt><dd>$550</dd></div>
+                  <div><dt>Condenser Coil Replacement</dt><dd>$3,500</dd></div>
+                  <div><dt>Condenser Replacement</dt><dd>$6,800</dd></div>
+                </dl>
+                  </article>
+
+                  <article class="air-price-group" id="price-drainage" data-price-category="drainage" data-reveal>
+                <header>
+                  <span>05</span>
+                  <h2>Drainage + Indoor Air</h2>
+                </header>
+                <dl class="air-price-list">
+                  <div><dt>Condensate Pump Replacement</dt><dd>$275</dd></div>
+                  <div><dt>Float Switch Replacement</dt><dd>$150</dd></div>
+                  <div><dt>Drain Line Clearing</dt><dd>$185</dd></div>
+                  <div><dt>UV Light Install</dt><dd>$550</dd></div>
+                  <div><dt>Air Purifier Install</dt><dd>$1,250</dd></div>
+                  <div><dt>Humidifier Install</dt><dd>$1,050</dd></div>
+                </dl>
+                  </article>
+
+                  <article class="air-price-group" id="price-mini-splits" data-price-category="mini-splits" data-reveal>
+                <header>
+                  <span>06</span>
+                  <h2>Mini Splits + Air Handlers</h2>
+                </header>
+                <dl class="air-price-list">
+                  <div><dt>Mini Split Control Board Replacement</dt><dd>$950</dd></div>
+                  <div><dt>Mini Split Fan Motor Replacement</dt><dd>$750</dd></div>
+                  <div><dt>Mini Split Communication Wire Repair</dt><dd>$375</dd></div>
+                  <div><dt>Air Handler Replacement</dt><dd>$4,500</dd></div>
+                </dl>
+                  </article>
+                </div>
+              </div>
+
+              <aside class="air-price-help" aria-label="Pricing help and booking" data-reveal>
+                <p class="air-price-help__label">Not sure what failed?</p>
+                <h2>Send the symptom. We will narrow it down.</h2>
+                <p>Tell us what stopped working, the equipment type, and your city. AR Air can call or text back the same day.</p>
+                <div class="air-price-help__actions">
+                  <a class="air-btn air-btn--dark" href="tel:+19165479721">Call Now</a>
+                  <a class="air-btn air-btn--light" href="sms:+19165479721">Text AR Air</a>
+                  <a class="air-btn air-btn--primary" href="index.html#quote">Request Quote</a>
+                </div>
+                <ul>
+                  <li>24/7 Emergency Service</li>
+                  <li>Written estimate before work</li>
+                  <li>Serving Sacramento to Chico and beyond</li>
+                </ul>
+              </aside>
+            </div>
+          </div>
+        </section>
+
+        <section class="air-pricing-guide" aria-labelledby="pricing-guide-title">
+          <div class="air-wrap air-pricing-guide__grid">
+            <div data-reveal>
+              <p class="air-kicker">How pricing works</p>
+              <h2 id="pricing-guide-title">Clear numbers first. Final quote after diagnosis.</h2>
+              <p>These prices cover common repairs and replacements. AR Air confirms the exact scope before work starts, especially when access, equipment condition, or specialty parts affect the job.</p>
+            </div>
+            <div class="air-pricing-guide__details" data-reveal>
+              <details open>
+                <summary>Are these final prices?</summary>
+                <p>They are common repair prices. Final pricing can change after diagnosis if the equipment needs additional parts, access is limited, or the failure is different than expected.</p>
+              </details>
+              <details>
+                <summary>Why does compressor replacement require booking?</summary>
+                <p>Compressor pricing depends on equipment size, refrigerant type, warranty status, and system condition. AR Air needs to inspect it before giving the right number.</p>
+              </details>
+              <details>
+                <summary>Can I call or text if I do not know the part name?</summary>
+                <p>Yes. Send the symptom, model photo, and city. AR Air will help identify the likely repair and next step.</p>
+              </details>
+              <details>
+                <summary>Is emergency service available?</summary>
+                <p>Yes. AR Air offers 24/7 Emergency Service across Sacramento, Yuba City, Marysville, Oroville, Chico, and beyond.</p>
+              </details>
+            </div>
+          </div>
+        </section>
+
+        <section class="air-pricing-cta" aria-labelledby="pricing-cta-title">
+          <div class="air-wrap air-pricing-cta__grid">
+            <div data-reveal>
+              <p class="air-kicker">Ready to schedule?</p>
+              <h2 id="pricing-cta-title">Call, text, or request a quote before parts get worse.</h2>
+            </div>
+            <div class="air-pricing-cta__actions" data-reveal>
+              <a class="air-btn air-btn--dark" href="tel:+19165479721">Call Now</a>
+              <a class="air-btn air-btn--light" href="sms:+19165479721">Text AR Air</a>
+              <a class="air-btn air-btn--primary" href="index.html#quote">Request Quote</a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="air-footer">
+        <div class="air-wrap air-footer__grid">
+          <div>
+            <img src="assets/ar-air-logo-gradient.svg" alt="AR Air Heating Cooling Refrigeration Better Living" />
+            <p>Heating, cooling, refrigeration, electrical, installation, repair, and maintenance across Northern California.</p>
+          </div>
+          <div>
+            <h2>Contact</h2>
+            <a href="tel:+19165479721">+1 (916) 547-9721</a>
+            <a href="sms:+19165479721">Text AR Air</a>
+            <a href="mailto:service@arairpro.com">service@arairpro.com</a>
+          </div>
+          <div>
+            <h2>Services</h2>
+            <a href="heating.html">Heating</a>
+            <a href="cooling.html">Cooling</a>
+            <a href="refrigeration.html">Refrigeration</a>
+            <a href="electrical.html">Electrical</a>
+          </div>
+        </div>
+        <div class="air-wrap air-footer__bottom">
+          <span>© 2026 AR Air. All rights reserved.</span>
+          <span>24/7 Emergency Service</span>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js?v=pricing-page-2026-05-11"></script>
+  </body>
+</html>

@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 720" role="img" aria-labelledby="title desc">
+  <title id="title">Cartoon AR Air technician waving</title>
+  <desc id="desc">Full-body stylized HVAC technician wearing navy AR Air branded workwear and waving.</desc>
+  <defs>
+    <linearGradient id="navy" x1="86" y1="126" x2="337" y2="650" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#163f73"/>
+      <stop offset="0.48" stop-color="#102b52"/>
+      <stop offset="1" stop-color="#07182f"/>
+    </linearGradient>
+    <linearGradient id="navyLight" x1="125" y1="168" x2="328" y2="515" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#24588f"/>
+      <stop offset="1" stop-color="#0d2649"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="147" y1="75" x2="267" y2="242" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffc991"/>
+      <stop offset="1" stop-color="#c87543"/>
+    </linearGradient>
+    <linearGradient id="arGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff482f"/>
+      <stop offset="0.38" stop-color="#ff9f1d"/>
+      <stop offset="0.62" stop-color="#2eb9ec"/>
+      <stop offset="1" stop-color="#16348d"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="14" stdDeviation="12" flood-color="#07182f" flood-opacity="0.16"/>
+    </filter>
+    <filter id="smallShadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="5" stdDeviation="4" flood-color="#07182f" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="214" cy="686" rx="138" ry="22" fill="#0b2f62" opacity="0.1"/>
+
+  <g filter="url(#softShadow)">
+    <path d="M148 346h54l-9 295h-68l-10-239c-1-32 3-47 33-56z" fill="url(#navy)"/>
+    <path d="M219 346h56c29 9 34 25 33 57l-12 238h-68l-8-295z" fill="url(#navy)"/>
+    <path d="M128 633h68l12 27c4 10-4 20-16 20h-82c-16 0-24-13-15-25 8-11 19-18 33-22z" fill="#07111f"/>
+    <path d="M225 633h69c14 4 25 11 33 22 9 12 1 25-15 25h-82c-12 0-20-10-16-20l11-27z" fill="#07111f"/>
+    <path d="M149 387c18 10 37 14 55 12" fill="none" stroke="#2f6ea6" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+    <path d="M232 399c21 2 40-2 58-12" fill="none" stroke="#2f6ea6" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <path d="M105 196c27-37 59-55 103-55 48 0 86 21 112 61 17 25 22 73 13 125-10 60-33 84-84 93-25 5-54 5-81 0-49-9-73-34-83-92-9-52 2-104 20-132z" fill="url(#navyLight)"/>
+    <path d="M110 238c-28 22-47 54-53 95-5 36 4 58 25 64 22 6 35-10 38-42 2-24 9-43 21-56l-31-61z" fill="url(#navy)"/>
+    <path d="M318 238c31 23 50 56 56 98 5 37-5 60-28 65-22 5-34-11-37-44-2-24-9-44-21-58l30-61z" fill="url(#navy)"/>
+    <path d="M95 207c40 17 78 25 113 25 38 0 77-9 118-27" fill="none" stroke="#ff8b1a" stroke-width="5" stroke-linecap="round"/>
+    <path d="M209 170v247" fill="none" stroke="#061629" stroke-width="8" stroke-linecap="round"/>
+    <path d="M217 171v244" fill="none" stroke="#365d85" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+    <path d="M241 244h43v102h-43z" fill="#07182f" opacity="0.23"/>
+    <path d="M252 254h17" stroke="#56b6f0" stroke-width="5" stroke-linecap="round"/>
+    <path d="M123 338h55c9 0 17 7 17 17v45h-78v-56c0-3 3-6 6-6z" fill="#07182f" opacity="0.16"/>
+  </g>
+
+  <g filter="url(#smallShadow)">
+    <path d="M98 286c-21 15-32 39-28 64 3 21 15 34 30 31 15-3 22-19 18-40-3-17 1-31 12-44l-32-11z" fill="url(#skin)"/>
+    <path d="M319 286c24-34 45-70 52-113 3-16 16-27 31-23 14 4 21 18 17 34-11 49-36 91-71 126l-29-24z" fill="url(#skin)"/>
+    <path d="M371 172c2-32 8-51 21-58 10-6 24 0 25 12 1 11-11 23-25 39" fill="none" stroke="#d88959" stroke-width="13" stroke-linecap="round"/>
+    <path d="M383 164c4-38 11-61 25-67 11-5 23 3 23 15 0 13-14 28-29 48" fill="none" stroke="#f0a66f" stroke-width="12" stroke-linecap="round"/>
+    <path d="M398 168c8-34 18-52 32-56 11-3 22 6 20 18-2 13-18 25-35 43" fill="none" stroke="#ffc18a" stroke-width="11" stroke-linecap="round"/>
+    <path d="M352 171c-2-30 1-49 12-58 9-7 23-4 26 8 3 11-6 24-17 41" fill="none" stroke="#c97846" stroke-width="12" stroke-linecap="round"/>
+    <path d="M348 312c-11 7-24 4-31-7l-19-30c-7-11-4-25 7-32l10-6 43 69-10 6z" fill="url(#navy)"/>
+  </g>
+
+  <g filter="url(#smallShadow)">
+    <path d="M164 128c3 21 19 36 44 36s41-15 44-36v-40h-88v40z" fill="url(#skin)"/>
+    <path d="M149 75c0-42 26-69 63-69s63 27 63 69v26c0 42-26 70-63 70s-63-28-63-70V75z" fill="url(#skin)"/>
+    <path d="M165 70c13-33 38-44 73-33 17 5 29 16 39 33-5-43-31-68-67-68-39 0-65 27-65 72 5-2 11-4 20-4z" fill="#322015"/>
+    <ellipse cx="179" cy="95" rx="6" ry="8" fill="#141414"/>
+    <ellipse cx="240" cy="95" rx="6" ry="8" fill="#141414"/>
+    <path d="M194 129c12 10 25 10 37 0" fill="none" stroke="#7e3f2a" stroke-width="6" stroke-linecap="round"/>
+    <path d="M147 75c40-37 82-38 126-2v-7c0-25-28-52-63-52-36 0-63 25-63 52v9z" fill="#102b52"/>
+    <path d="M136 83c45-29 95-30 148-2 7 4 13-4 8-11-18-27-48-42-83-42-35 0-65 15-82 42-5 7 2 17 9 13z" fill="#163f73"/>
+    <path d="M174 45c18-8 52-8 74 0" stroke="#2f6ea6" stroke-width="4" stroke-linecap="round" opacity="0.55"/>
+    <g transform="translate(184 47) rotate(2)">
+      <path d="M0 22 14 2h14l-11 7 15 13h-14l-8-7-4 7z" fill="url(#arGradient)"/>
+      <path d="M34 2h16c13 0 20 6 20 17 0 9-5 15-13 17l17 20H55L39 37h-5v19H19V2h15z" fill="url(#arGradient)"/>
+    </g>
+  </g>
+
+  <g transform="translate(248 216)" filter="url(#smallShadow)">
+    <path d="M0 42 26 4h22L29 18l28 24H34L19 29l-7 13z" fill="url(#arGradient)"/>
+    <path d="M60 4h28c21 0 34 11 34 29 0 15-9 25-22 29l28 34H97L72 66h-12v30H36V4h24z" fill="url(#arGradient)"/>
+  </g>
+</svg>
