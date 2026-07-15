@@ -1,4 +1,18 @@
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url("assets/fonts/inter-latin-variable.woff2") format("woff2");
+}
+
 :root {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --type-weight-medium: 500;
+  --type-weight-bold: 800;
+  --type-weight-heavy: 900;
+  --type-tracking-display: -0.04em;
+  --type-tracking-heading: -0.025em;
   --ink: #111318;
   --muted: #5d6572;
   --line: #e7eaf0;
@@ -770,9 +784,7 @@ body {
   margin: 0;
   color: var(--ink);
   background: var(--white);
-  font-family:
-    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-    sans-serif;
+  font-family: var(--font-sans);
   line-height: 1.5;
 }
 
@@ -2001,6 +2013,10 @@ section {
 .blue-site .section-kicker {
   color: #161a22;
   letter-spacing: 0.02em;
+}
+
+.blue-site .plans .section-kicker {
+  color: #7fd3e8;
 }
 
 .blue-site .section-kicker::before {
@@ -3683,7 +3699,7 @@ section {
   margin: 0;
   color: var(--air-ink);
   background: var(--air-white);
-  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: var(--font-sans);
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
@@ -5380,4 +5396,72 @@ section {
   .air-tech-card__person {
     width: min(94%, 360px);
   }
+}
+
+/* Assertive site-wide type hierarchy: weight creates emphasis, not roundness. */
+:where(h1, h2, h3) {
+  text-wrap: balance;
+}
+
+:where(h1) {
+  font-weight: var(--type-weight-heavy);
+  letter-spacing: var(--type-tracking-display);
+}
+
+:where(h2) {
+  font-weight: 850;
+  letter-spacing: var(--type-tracking-heading);
+}
+
+:where(h3) {
+  font-weight: var(--type-weight-bold);
+  letter-spacing: -0.02em;
+}
+
+.section-heading,
+.air-hero h1,
+.air-pricing__intro h1 {
+  font-weight: var(--type-weight-heavy);
+  line-height: 0.94;
+  letter-spacing: var(--type-tracking-display);
+}
+
+.air-section-head h2,
+.air-equipment__copy h2,
+.air-response h2,
+.air-coverage h2,
+.air-plans h2,
+.air-quote h2,
+.air-pricing-guide h2,
+.air-pricing-cta h2 {
+  font-weight: 850;
+  letter-spacing: var(--type-tracking-heading);
+}
+
+:where(.section-kicker, .air-kicker) {
+  font-weight: var(--type-weight-heavy);
+  letter-spacing: 0.055em;
+}
+
+:where(.section-lead, .air-lead, .air-pricing__lead) {
+  font-weight: var(--type-weight-medium);
+  text-wrap: pretty;
+}
+
+:where(.nav-links a, .air-nav__links a, .top-strip a, .top-strip strong) {
+  font-weight: var(--type-weight-bold);
+}
+
+:where(.btn, .air-btn, button) {
+  font-weight: 850;
+  letter-spacing: -0.01em;
+}
+
+:where(.air-price-list dt, .feature-list strong, .method strong, .air-proof strong) {
+  font-weight: var(--type-weight-bold);
+}
+
+:where(.air-price-list dd, .air-contact-stack a) {
+  font-weight: var(--type-weight-heavy);
+  font-variant-numeric: tabular-nums;
 }
