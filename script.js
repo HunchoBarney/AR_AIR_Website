@@ -15,6 +15,24 @@ if (navToggle && navLinks) {
   });
 }
 
+if (!document.querySelector(".mobile-contact-bar")) {
+  const mobileContactBar = document.createElement("aside");
+  mobileContactBar.className = "mobile-contact-bar";
+  mobileContactBar.setAttribute("aria-label", "Quick contact");
+  mobileContactBar.innerHTML = `
+    <a href="tel:+19165479721">
+      <span>Call 24/7</span>
+      <span class="mobile-contact-bar__detail">+1 (916) 547-9721</span>
+    </a>
+    <a href="sms:+19165479721">
+      <span>Text a Photo</span>
+      <span class="mobile-contact-bar__detail">Send the issue from the job site</span>
+    </a>
+  `;
+  document.body.append(mobileContactBar);
+  document.body.classList.add("has-mobile-contact-bar");
+}
+
 const icons = {
   phone: '<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.9.32 1.77.6 2.61a2 2 0 0 1-.45 2.11L8 9.7a16 16 0 0 0 6.3 6.3l1.26-1.26a2 2 0 0 1 2.11-.45c.84.28 1.71.48 2.61.6A2 2 0 0 1 22 16.92z"/></svg>',
   message: '<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4z"/></svg>',
@@ -75,8 +93,8 @@ contactForms.forEach((form) => {
     const fields = [...form.elements]
       .filter((element) => element.name)
       .map((element) => `${element.name}: ${element.value || ""}`)
-      .join("\\n");
-    const body = encodeURIComponent(fields || "Name:\\nPhone:\\nService needed:\\nCity:\\nMessage:\\n");
+      .join("\n");
+    const body = encodeURIComponent(fields || "Name:\nPhone:\nService needed:\nCity:\nMessage:\n");
     form.setAttribute("action", `mailto:service@arairpro.com?subject=${subject}&body=${body}`);
   });
 });

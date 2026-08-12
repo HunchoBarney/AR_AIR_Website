@@ -10,7 +10,8 @@
     />
     <meta name="theme-color" content="#eef8ff" />
     <link rel="icon" href="assets/ar-air-mark-gradient.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="styles.css?v=bold-type-2026-07-14" />
+    <link rel="preload" as="image" href="assets/ac-condenser-ar-badge-mid-large.png" fetchpriority="high" />
+    <link rel="stylesheet" href="styles.css?v=conversion-pass-2026-08-11" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -78,12 +79,12 @@
                 24/7 certified service for cooling, heating, commercial refrigeration, and HVAC electrical problems from Sacramento to Chico and beyond.
               </p>
               <div class="air-hero__actions" aria-label="Primary contact actions">
-                <a class="air-btn air-btn--dark" href="tel:+19165479721">Call Now</a>
-                <a class="air-btn air-btn--light" href="sms:+19165479721">Text AR Air</a>
-                <a class="air-btn air-btn--link" href="#quote">Request a Quote</a>
+                <a class="air-btn air-btn--dark" href="tel:+19165479721">Call AR Air 24/7</a>
+                <a class="air-btn air-btn--light" href="sms:+19165479721">Text a Photo</a>
+                <a class="air-btn air-btn--link" href="#quote">Request service</a>
               </div>
               <p class="air-hero__note">
-                Residential and commercial service for repairs, installs, maintenance, and emergency calls.
+                For urgent problems, call or text first. Use the form for planned work, maintenance, and quote questions.
               </p>
               <div class="air-hero__mini-proof" aria-label="Primary AR Air trust signals">
                 <span>5 years hands-on</span>
@@ -94,7 +95,7 @@
 
             <figure class="air-hero__media" aria-label="Clean outdoor AC condenser render" data-reveal>
               <span class="air-hero__plate" aria-hidden="true"></span>
-              <img src="assets/ac-condenser-ar-badge-mid-large.png" alt="Outdoor AC condenser equipment with centered AR Air badge" />
+              <img src="assets/ac-condenser-ar-badge-mid-large.png" alt="Outdoor AC condenser equipment with centered AR Air badge" width="1127" height="1395" loading="eager" fetchpriority="high" decoding="async" />
               <figcaption class="air-hero__caption">
                 <span>Emergency line open</span>
                 <strong>+1 (916) 547-9721</strong>
@@ -215,6 +216,10 @@
               <p>
                 Call or text, describe the problem, and get clear repair, maintenance, or replacement options before work begins.
               </p>
+              <div class="air-response__decision" aria-label="Choose the best way to contact AR Air">
+                <p><strong>Urgent now?</strong> Call or text the 24/7 service line.</p>
+                <p><strong>Planning ahead?</strong> Send the form with your city and service need.</p>
+              </div>
             </div>
 
             <div class="air-steps" aria-label="Service process">
@@ -308,14 +313,15 @@
                 <input id="phone" name="phone" autocomplete="tel" required />
               </div>
               <div class="field">
-                <label for="city">City</label>
+                <label for="city">City <span>(optional)</span></label>
                 <input id="city" name="city" autocomplete="address-level2" />
               </div>
               <div class="field">
                 <label for="service">Service Needed</label>
-                <select id="service" name="service">
-                  <option>Cooling</option>
+                <select id="service" name="service" required>
+                  <option value="" selected disabled>Select a service</option>
                   <option>Heating</option>
+                  <option>Cooling</option>
                   <option>Refrigeration</option>
                   <option>Electrical</option>
                   <option>Maintenance</option>
@@ -323,10 +329,11 @@
                 </select>
               </div>
               <div class="field full">
-                <label for="message">What is going on?</label>
-                <textarea id="message" name="message" placeholder="Tell us the equipment type, city, and how urgent it is."></textarea>
+                <label for="message">What is going on? <span>(optional)</span></label>
+                <textarea id="message" name="message" placeholder="What changed? Include equipment or urgency if you know it."></textarea>
               </div>
-              <button class="air-btn air-btn--primary" type="submit">Send Request</button>
+              <p class="form-note" id="quote-form-note">Submitting opens your email app with these details ready to send. For urgent service, call or text instead.</p>
+              <button class="air-btn air-btn--primary" type="submit" aria-describedby="quote-form-note">Send Service Request</button>
             </form>
           </div>
         </section>
@@ -359,6 +366,6 @@
       </footer>
     </div>
     <script src="assets/vendor/lottie-web/lottie.min.js"></script>
-    <script src="script.js?v=pricing-page-2026-05-10"></script>
+    <script src="script.js?v=conversion-pass-2026-08-11"></script>
   </body>
 </html>
